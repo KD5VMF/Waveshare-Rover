@@ -37,7 +37,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Acknowledgements
 
 - [Waveshare](https://www.waveshare.com/)
-- [FHL-LD19 LiDAR Sensor Documentation](#)  <!-- Please replace '#' with the actual link to the documentation -->
+- [FHL-LD19 LiDAR Sensor Documentation](https://github.com/KD5VMF/Waveshare-Rover/blob/main/LD19_Development_Manual_v2.5.pdf)
 - Chat-GPT4 by OpenAI, for assistance in code improvement and documentation.
 - And everyone who has contributed to the project!
 
