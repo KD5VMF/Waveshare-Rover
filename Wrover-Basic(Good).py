@@ -3,7 +3,7 @@ Title: Advanced Rover Obstacle Avoidance System
 
 About: This Python script embodies an advanced navigation and obstacle avoidance
 system specifically designed for rovers equipped with LiDAR (FHL-LD19) sensor. It establishes
-and manages serial connections with the rover and its LiDAR sensor, adeptly processing
+and manages serial connections with the Waveshare rover and its LiDAR sensor, adeptly processing
 real-time LiDAR data to intelligently detect and navigate around obstacles. Key features
 include dynamic obstacle detection, decision-making based on sensor input, and executing
 movement commands tailored to the rover's context. Designed with robustness in mind, it
