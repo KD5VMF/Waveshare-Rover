@@ -27,7 +27,7 @@ source venv/bin/activate
 Install required Python packages:
 
 pip install pyserial
-Configuration
+
 Before running the navigation system, ensure that the serial port configurations in the script match your hardware setup:
 
 ROVER_SERIAL_PORT = '/dev/serial0'   Rover control board serial port
