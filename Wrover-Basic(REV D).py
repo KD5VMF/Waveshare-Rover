@@ -63,10 +63,10 @@ LIDAR_BAUD_RATE = 230400
 SAFETY_DISTANCE = 350
 
 # Define the intensity value to use for lidar reflected intensity
-INTENSITY_VALUE = 150
+INTENSITY_VALUE = 180
 
 # Define the time to wait before new object detection and decision making begins.
-WaitTime = 0.07
+WaitTime = 0.05
 
 # Define dynamic safety margin calculation values; adjust based on testing and requirements
 BaseSaftyDistance = SAFETY_DISTANCE # Starting value = 950       ***Base safety distance in millimeters***
@@ -207,8 +207,8 @@ def make_dynamic_decision(intensity, angle, angular_resolution):
     """
     # Example decision logic based on intensity and angle, factoring in angular resolution
     if intensity > INTENSITY_VALUE:
-        if 90 <= angle <= 270:
-            return "TURN_LEFT" if angular_resolution < 100 else "TURN_RIGHT"  # Example conditional decision
+        if 150 <= angle <= 270:
+            return "TURN_LEFT" if angular_resolution > 50 else "TURN_RIGHT"  # Example conditional decision
         else:
             return "TURN_RIGHT"
     else:
@@ -311,4 +311,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
