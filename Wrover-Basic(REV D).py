@@ -65,6 +65,14 @@ SAFETY_DISTANCE = 100
 # Define the intensity value to use for lidar reflected intensity
 INTENSITY_VALUE = 20
 
+# Define the time to wait before new object detection and decision making begins.
+WaitTime = 0.05
+
+# Define dynamic safety margin calculation values; adjust based on testing and requirements
+BaseSaftyDistance = 950 # Starting value = 950       ***Base safety distance in millimeters***
+SpeedFactor = 1000 # Starting value = 1000             ***Example speed factor calculation; adjust as needed***
+ResolutionFactor = 36000 # Starting value = 36000    ***Example resolution factor calculation***
+
 # Enhanced Movement and Speed Definitions
 # These values should be adjusted based on testing to ensure effective maneuvering
 # Movement commands and safety distance definition
@@ -185,9 +193,9 @@ def calculate_dynamic_safety_margin(speed, angular_resolution):
     Calculates a dynamic safety margin based on the LiDAR's scanning speed and angular resolution.
     """
     # Example logic for dynamic safety margin calculation; adjust based on testing and requirements
-    base_safety_distance = 950  # Base safety distance in millimeters
-    speed_factor = speed / 1000  # Example speed factor calculation; adjust as needed
-    resolution_factor = 36000 / angular_resolution  # Example resolution factor calculation
+    base_safety_distance = BaseSaftyDistance # Base safety distance in millimeters
+    speed_factor = speed / SpeedFactor # Example speed factor calculation; adjust as needed
+    resolution_factor = ResolutionFactor / (angular_resolution / 100.0) # Example resolution factor calculation
 
     # Calculate dynamic safety margin
     dynamic_safety_margin = base_safety_distance + (speed_factor * resolution_factor)
@@ -205,17 +213,6 @@ def make_dynamic_decision(intensity, angle, angular_resolution):
             return "TURN_RIGHT"
     else:
         return "STOP"
-
-def calculate_dynamic_safety_margin(speed, angular_resolution):
-    """
-    Calculates a dynamic safety margin based on the LiDAR's scanning speed and angular resolution.
-    """
-    base_safety_distance = 900  # Start with a base safety distance
-    speed_factor = speed / 1000  # Adjust based on your specific use case
-    resolution_factor = 360 / (angular_resolution / 100.0)  # Adjust based on actual resolution
-
-    dynamic_safety_margin = base_safety_distance + (speed_factor * resolution_factor)
-    return dynamic_safety_margin
 
 def determine_dynamic_action(closest_angle, lidar_data):
     """
@@ -300,7 +297,7 @@ def main():
                 #print(f"Action decided: {action}")
                 send_command_to_rover(rover_conn, COMMANDS[action])
                 #print(f"Command sent: {COMMANDS[action]}")
-            time.sleep(0.05)
+            time.sleep(WaitTime)
     except KeyboardInterrupt:
         print("Program terminated by user.")
     except Exception as e:
