@@ -58,7 +58,7 @@ contributions have been instrumental in bringing this project to fruition:
   deep commitment to advancing autonomous navigation, were instrumental in the project's
   success without overshadowing the collaborative spirit that defined our work.
 
-This endeavor is a prime example of the synergy between human ingenuity and artificial intelligence. Each contribution, from algorithm development to hardware assembly and field testing, has been a vital piece of the puzzle. A heartfelt appreciation goes out to everyone involved, especially Adam, whose vision and dedication have been the guiding light of this project. Your collective efforts have not only propelled this initiative to new heights but also laid the groundwork for future explorations in autonomous navigation technologies.
+This endeavor is a prime example of the synergy between human ingenuity and artificial intelligence. Each contribution, from algorithm development to hardware assembly and field testing, has been a vital piece of the puzzle. A heartfelt appreciation goes out to everyone involved with this project. Your collective efforts have not only propelled this initiative to new heights but also laid the groundwork for future explorations in autonomous navigation technologies.
 
 
 Join us in exploring the possibilities of autonomous navigation with the Waveshare Rovers, as we continue to push the boundaries of what these incredible machines can achieve.
