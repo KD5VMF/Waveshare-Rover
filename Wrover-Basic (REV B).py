@@ -1,4 +1,5 @@
-# Enhanced Autonomous Navigation and Obstacle Avoidance System for
+"""
+Title: Enhanced Autonomous Navigation and Obstacle Avoidance System for
 Waveshare Rovers with Advanced Sensory Integration. REV B
 
 About:
