@@ -126,6 +126,7 @@ def CalCRC8(data):
     for byte in data:
         crc = CrcTable[(crc ^ byte) & 0xFF]
     return crc
+    
 def find_packet_start(serial_port):
     """Read bytes one at a time until the packet start header (0x54) is found."""
     while True:
@@ -221,13 +222,11 @@ def determine_dynamic_action(closest_angle, lidar_data):
         # Additional logic can be added here to handle cases where all directions are blocked
         return "REVERSE"
 
-
 def check_for_obstacles(lidar_conn):
     packet = read_packet(lidar_conn)
     if packet:
         return parse_lidar_packet(packet)
     return False
-
 
 def lidar_processing_thread(lidar_conn, action_queue):
     """Processes LiDAR data in a separate thread, detecting obstacles and deciding movement actions."""
@@ -251,7 +250,6 @@ def rover_control_thread(rover_conn, action_queue):
                 time.sleep(0.1)
         except Exception as e:
             print(f"Error in rover control: {e}")
-
 
 # ================================================
 # Main Logic
