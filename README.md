@@ -60,10 +60,6 @@ contributions have been instrumental in bringing this project to fruition:
   deep commitment to advancing autonomous navigation, were instrumental in the project's
   success without overshadowing the collaborative spirit that defined our work.
 
-This project's journey underscores the importance of each contribution, no matter the scale.
-Together, we've pushed the boundaries of what's possible in autonomous rover navigation,
-setting a new benchmark for innovation and collaborative problem-solving.
-
 This endeavor is a prime example of the synergy between human ingenuity and artificial intelligence. Each contribution, from algorithm development to hardware assembly and field testing, has been a vital piece of the puzzle. A heartfelt appreciation goes out to everyone involved, especially Adam, whose vision and dedication have been the guiding light of this project. Your collective efforts have not only propelled this initiative to new heights but also laid the groundwork for future explorations in autonomous navigation technologies.
 
 
