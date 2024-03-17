@@ -41,11 +41,28 @@ This software is provided 'as-is', without warranty of any kind. The developers 
 Released under the MIT License. This allows for modification, distribution, and private or commercial use under the terms of the license.
 
 ## Acknowledgments
-This project's journey from an ambitious concept to the advanced system it is today reflects a profound collaborative effort and expertise from various corners of technology and innovation. We owe our gratitude to:
 
-- **ChatGPT-4 by OpenAI**: Our development leveraged the sophisticated capabilities of ChatGPT-4 extensively. From generating foundational code to troubleshooting and offering insights into LiDAR technology and autonomous navigation, ChatGPT-4's contributions were indispensable. The AI's ability to elucidate complex concepts and provide actionable code snippets was instrumental in surmounting the myriad technical challenges we faced.
+The development of the Enhanced Dynamic Autonomous Navigation and Obstacle Avoidance
+System stands as a testament to the power of collaborative innovation, drawing on diverse
+expertise and the latest in AI technology. We extend our deepest gratitude to those whose
+contributions have been instrumental in bringing this project to fruition:
 
-- **Adam Figueroa (KD5VMF)**: As the heart and brain behind FigTroniX, Adam's multifaceted role was crucial to the system's development and refinement. Not only did he coordinate the wealth of data essential for programming, but he also assembled the hardware setup and provided detailed, invaluable feedback throughout the development process. Adam's insights, derived from rigorous testing and a deep understanding of both the hardware components and the overarching goals, were pivotal. Without his expertise and unique perspective, the project could not have achieved its current level of sophistication.
+- **OpenAI's ChatGPT-4**: Provided invaluable insights and assistance in coding,
+  troubleshooting, and understanding complex principles of LiDAR technology and autonomous
+  navigation. Its advanced capabilities were central to overcoming the many technical
+  challenges we faced.
+
+- **Adam Figueroa (KD5VMF) and FigTroniX**: At the helm of FigTroniX, Adam played a key role
+  in the practical aspects of this project. His contributions, from hardware assembly to
+  detailed technical feedback, were essential. Adam's ability to bridge the gap between
+  theoretical concepts and real-world application, ensuring the system's goals were met with
+  precision, showcases the essence of effective project leadership. His efforts, rooted in a
+  deep commitment to advancing autonomous navigation, were instrumental in the project's
+  success without overshadowing the collaborative spirit that defined our work.
+
+This project's journey underscores the importance of each contribution, no matter the scale.
+Together, we've pushed the boundaries of what's possible in autonomous rover navigation,
+setting a new benchmark for innovation and collaborative problem-solving.
 
 This endeavor is a prime example of the synergy between human ingenuity and artificial intelligence. Each contribution, from algorithm development to hardware assembly and field testing, has been a vital piece of the puzzle. A heartfelt appreciation goes out to everyone involved, especially Adam, whose vision and dedication have been the guiding light of this project. Your collective efforts have not only propelled this initiative to new heights but also laid the groundwork for future explorations in autonomous navigation technologies.
 
