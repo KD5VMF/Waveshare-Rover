@@ -1,14 +1,43 @@
 """
-Title: Rover Navigation System
+Title: Advanced Rover Obstacle Avoidance System
 
-About: This script is designed to control a Waveshare Rover equipped with LiDAR (FHL-LD19) for obstacle detection and avoidance.
-       It establishes serial connections with the rover and the LiDAR (FHL-LD19) sensor, processes incoming LiDAR data
-       to detect obstacles, and sends appropriate movement commands to the rover based on the detected obstacles.
-       The script employs basic error handling and is organized into sections for clarity and maintenance.
+About: This Python script embodies an advanced navigation and obstacle avoidance
+system specifically designed for rovers equipped with LiDAR sensors. It establishes
+and manages serial connections with the rover and its LiDAR sensor, adeptly processing
+real-time LiDAR data to intelligently detect and navigate around obstacles. Key features
+include dynamic obstacle detection, decision-making based on sensor input, and executing
+movement commands tailored to the rover's context. Designed with robustness in mind, it
+includes comprehensive error handling and is structured into clear sections for
+configuration, utility functions, LiDAR processing, and main logic.
 
 Requirements:
 - Python 3.x
 - pyserial package
+
+Disclaimer: This software is provided 'as-is', without any warranty. In no event will
+the authors be liable for any damages arising from its use. You are permitted to use,
+modify, and distribute it under the MIT License, intended for educational purposes.
+By using this software, you agree to the disclaimer and license terms.
+
+License: MIT License
+
+Copyright (c) <year> <copyright holders>
+
+Permission is granted, free of charge, to any person obtaining a copy of this software
+and associated documentation, to deal in the Software without restriction, including
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies
+or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 """
 
 import serial
