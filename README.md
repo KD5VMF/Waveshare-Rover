@@ -38,8 +38,8 @@ Before running the navigation system, ensure that the serial port configurations
 
 python
 Copy code
-ROVER_SERIAL_PORT = '/dev/serial0'  # Rover control board serial port
-LIDAR_SERIAL_PORT = '/dev/ttyUSB0'  # LiDAR sensor serial port
+ROVER_SERIAL_PORT = '/dev/serial0'   Rover control board serial port
+LIDAR_SERIAL_PORT = '/dev/ttyUSB0'   LiDAR sensor serial port
 Adjust the SAFETY_DISTANCE and movement commands in the COMMANDS dictionary as needed to suit your environment and rover's capabilities.
 
 Running the Navigation System
@@ -55,4 +55,4 @@ The rover will start processing LiDAR data and move accordingly to avoid obstacl
 Safety and Testing
 Always test the rover in a safe, controlled environment to fine-tune the navigation parameters and ensure it operates as expected. Monitor the rover closely during operation to prevent accidents or damage.
 
-Make sure to use spaces (indentation) correctly in lists and code blocks for Markdown to render them properly. Additionally, check that you've used the correct headers (# for main headers, ## for subheaders, etc.) to ensure the document is structured as intended when viewed normally.
+Make sure to use spaces (indentation) correctly in lists and code blocks for Markdown to render them properly. Additionally, check that you've used the correct headers to ensure the document is structured as intended when viewed normally.
