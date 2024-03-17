@@ -70,7 +70,7 @@ WaitTime = 0.05
 
 # Define dynamic safety margin calculation values; adjust based on testing and requirements
 BaseSaftyDistance = 950 # Starting value = 950       ***Base safety distance in millimeters***
-SpeedFactor = 1000 # Starting value = 1000             ***Example speed factor calculation; adjust as needed***
+SpeedFactor = 1000 # Starting value = 1000           ***Example speed factor calculation; adjust as needed***
 ResolutionFactor = 36000 # Starting value = 36000    ***Example resolution factor calculation***
 
 # Enhanced Movement and Speed Definitions
