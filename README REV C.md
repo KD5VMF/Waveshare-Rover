@@ -24,7 +24,7 @@ Welcome to the GitHub repository for the Dynamic Autonomous Navigation and Obsta
 
 Distributed under the MIT License. See [LICENSE](https://opensource.org/licenses/MIT) for more information.
 
-Copyright <2024> <FigTroniX>
+Copyright (2024) (FigTroniX)
 
 ## Acknowledgements
 
