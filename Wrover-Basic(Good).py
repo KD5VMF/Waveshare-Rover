@@ -1,7 +1,7 @@
 """
 Title: Rover Navigation System
 
-About: This script is designed to control a Waveshare Rover equipped with LiDAR for obstacle detection and avoidance.
+About: This script is designed to control a rover equipped with LiDAR for obstacle detection and avoidance.
        It establishes serial connections with the rover and the LiDAR sensor, processes incoming LiDAR data
        to detect obstacles, and sends appropriate movement commands to the rover based on the detected obstacles.
        The script employs basic error handling and is organized into sections for clarity and maintenance.
@@ -29,12 +29,13 @@ LIDAR_SERIAL_PORT = '/dev/ttyUSB0'
 LIDAR_BAUD_RATE = 230400
 
 # Define a safety distance (in millimeters)
-SAFETY_DISTANCE = 900
+SAFETY_DISTANCE = 800
 
 # Enhanced Movement and Speed Definitions
 # These values should be adjusted based on testing to ensure effective maneuvering
 # Movement commands and safety distance definition
 COMMANDS = {
+    "FORWARD": {"T": 1, "L": 100, "R": 100,  # Full speed forward
     "REVERSE": {"T": 1, "L": -125, "R": -125},  # Full speed reverse, adjust duration as needed
     "TURN_LEFT": {"T": 1, "L": -255, "R": 255},  # Sharp left turn, negative value for left motor, positive for right
     "TURN_RIGHT": {"T": 1, "L": 255, "R": -255},  # Sharp right turn, positive value for left motor, negative for right
