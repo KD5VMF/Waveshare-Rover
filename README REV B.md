@@ -15,32 +15,6 @@ Python 3.x
 pyserial package
 Ensure your Raspberry Pi is set up and connected to the internet. Then, install the necessary Python packages:
 
-sh
-Copy code
-sudo apt update
-sudo apt install python3-pip
-pip3 install pyserial
-Setup
-Clone this repository to your Raspberry Pi:
-
-sh
-Copy code
-git clone https://github.com/yourusername/yourrepository.git
-Navigate to the cloned repository:
-
-sh
-Copy code
-cd yourrepository
-Ensure your LiDAR and rover are correctly connected to the Raspberry Pi as per the hardware setup instructions found in the docs directory.
-
-Usage
-To run the navigation and obstacle avoidance system, execute the main script:
-
-sh
-Copy code
-python3 Wrover.py
-Adjust the script's configuration settings as needed to match your hardware setup, particularly the serial port settings for the rover and LiDAR connections.
-
 Contributing
 We welcome contributions to this project! Whether you have suggestions for improvements, new features, or have found a bug to report, please feel free to contribute. Check out our contributing guidelines for more information on how to get involved.
 
