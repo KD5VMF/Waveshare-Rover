@@ -51,5 +51,3 @@ The rover will start processing LiDAR data and move accordingly to avoid obstacl
 Safety and Testing
 
 Always test the rover in a safe, controlled environment to fine-tune the navigation parameters and ensure it operates as expected. Monitor the rover closely during operation to prevent accidents or damage.
-
-Make sure to use spaces (indentation) correctly in lists and code blocks for Markdown to render them properly.
