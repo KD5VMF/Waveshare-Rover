@@ -20,3 +20,24 @@ Welcome to the GitHub repository for the Dynamic Autonomous Navigation and Obsta
 - pyserial package
 - FHL-LD19 LiDAR sensor
 
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgements
+
+- [Waveshare](https://www.waveshare.com/)
+- FHL-LD19 LiDAR Sensor Documentation (Link to the documentation if available online)
+- And everyone who has contributed to the project!
+
+We hope this project inspires and serves as a valuable tool for anyone interested in advancing autonomous navigation technologies. Happy coding!
