@@ -136,6 +136,8 @@ def parse_lidar_packet(packet):
     """
     Parses a LiDAR data packet, extracting and processing distance, intensity,
     and now speed and angular resolution for dynamic navigation adjustments.
+    Adjusts for the LiDAR's orientation, assuming the LiDAR's 'forward' is at 9 o'clock
+    relative to the robot's 12 o'clock 'forward'.
     """
     try:
         header, ver_len, speed = struct.unpack_from('<BBH', packet, 0)
@@ -145,7 +147,6 @@ def parse_lidar_packet(packet):
         num_points = ver_len & 0x1F  # Lower five bits of ver_len indicate the number of points
         angular_resolution = (end_angle - start_angle) / max((num_points - 1), 1)  # Calculate angular resolution in 0.01 degrees
 
-        # Calculate dynamic safety margin outside of the loop to ensure it's always defined
         dynamic_safety_margin = calculate_dynamic_safety_margin(speed, angular_resolution)
 
         closest_distance = float('inf')
@@ -157,17 +158,17 @@ def parse_lidar_packet(packet):
             offset = 6 + i * 3
             if offset + 3 <= len(packet) - 5:
                 distance, intensity = struct.unpack_from('<HB', packet, offset)
-                # Angle calculation adjusted for precise angular resolution
                 angle_increment = angular_resolution / 100.0  # Convert to degrees
-                angle = start_angle / 100.0 + angle_increment * i  # Convert start_angle to degrees and add increment
-                adjusted_angle = (angle + 90) % 360  # Adjusting the angle to rover's coordinate system
+                angle = start_angle / 100.0 + angle_increment * i  # Start angle converted to degrees
+                # Adjust for LiDAR's orientation: Adding 270 degrees to rotate from 9 o'clock to 12 o'clock
+                adjusted_angle = (angle + 270) % 360  # Ensure the angle is within 0-360 degrees
 
                 if 0 < distance < dynamic_safety_margin:
                     closest_distance = distance
                     closest_intensity = intensity
                     closest_angle_relative_to_rover = adjusted_angle
 
-        # Decision-making logic now correctly uses dynamic_safety_margin
+        # Decision-making logic using the adjusted closest_angle_relative_to_rover
         if closest_distance < dynamic_safety_margin:
             decision = make_dynamic_decision(closest_intensity, closest_angle_relative_to_rover, angular_resolution)
 
