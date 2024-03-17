@@ -22,11 +22,11 @@ Welcome to the GitHub repository for the Dynamic Autonomous Navigation and Obsta
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://opensource.org/licenses/MIT/) for more information.
+Distributed under the MIT License. See [LICENSE](https://opensource.org/licenses/MIT) for more information.
 
 ## Acknowledgements
 
-- [Waveshare](https://www.waveshare.com/wiki/WAVE_ROVER/)
+- [Waveshare](https://www.waveshare.com/wiki/WAVE_ROVER)
 - [FHL-LD19 LiDAR Sensor Documentation](https://github.com/KD5VMF/Waveshare-Rover/blob/main/LD19_Development_Manual_v2.5.pdf)
 - Chat-GPT4 by OpenAI, for assistance in code improvement and documentation.
 - And everyone who has contributed to the project!
