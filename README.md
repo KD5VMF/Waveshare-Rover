@@ -15,7 +15,7 @@ Connect the LiDAR sensor and the rover control board to the Raspberry Pi 4 via t
 Software Environment
 It's recommended to use a Python virtual environment for this project to manage dependencies efficiently.
 
-#Install Python 3.x on your Raspberry Pi if it's not already installed.
+Install Python 3.x on your Raspberry Pi if it's not already installed.
 Create a virtual environment in your project directory:
 sh
 Copy code
