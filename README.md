@@ -20,24 +20,16 @@ Install Python 3.x on your Raspberry Pi if it's not already installed.
 
 Create a virtual environment in your project directory:
 
-sh
-Copy code
 python3 -m venv venv
 Activate the virtual environment:
 
-sh
-Copy code
 source venv/bin/activate
 Install required Python packages:
 
-sh
-Copy code
 pip install pyserial
 Configuration
 Before running the navigation system, ensure that the serial port configurations in the script match your hardware setup:
 
-python
-Copy code
 ROVER_SERIAL_PORT = '/dev/serial0'   Rover control board serial port
 LIDAR_SERIAL_PORT = '/dev/ttyUSB0'   LiDAR sensor serial port
 Adjust the SAFETY_DISTANCE and movement commands in the COMMANDS dictionary as needed to suit your environment and rover's capabilities.
@@ -47,8 +39,6 @@ With your Raspberry Pi powered on and the virtual environment activated, navigat
 
 Run the navigation script:
 
-sh
-Copy code
 python Wrover-Basic(Good).py
 The rover will start processing LiDAR data and move accordingly to avoid obstacles.
 
