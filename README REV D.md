@@ -2,7 +2,7 @@
 
 ## About
 This advanced script revolutionizes autonomous navigation and obstacle avoidance capabilities for Waveshare Rovers. Leveraging the advanced LiDAR processing of the FHL-LD19 unit and optimized for the Raspberry Pi 4, this system introduces refined dynamics in navigation through sophisticated processing of spatial, intensity, and LiDAR scanning data. Aimed at enhancing maneuverability across complex environments, REV D focuses on precision and adaptability, integrating real-time angular resolution adjustments and enhanced safety margins for state-of-the-art obstacle navigation.
-
+ 
 ## Features
 - **Dynamic Obstacle Detection**: Comprehensive obstacle recognition using LiDAR data, analyzing distance, intensity, and scanning dynamics.
 - **Adaptive Navigation**: Real-time adjustments of dynamic safety margins based on LiDAR scanning speed and data point density.
