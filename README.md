@@ -1,4 +1,4 @@
-# Waveshare Rover Navigation System
+Waveshare Rover Navigation System
 The Waveshare Rover Navigation System is designed to autonomously navigate environments using LiDAR for obstacle detection and avoidance. Developed for the Raspberry Pi 4 with a Waveshare Rover Kit, this Python-based system processes incoming LiDAR data to dynamically adjust the rover's course, ensuring efficient navigation around obstacles.
 
 Requirements
@@ -16,15 +16,19 @@ Software Environment
 It's recommended to use a Python virtual environment for this project to manage dependencies efficiently.
 
 Install Python 3.x on your Raspberry Pi if it's not already installed.
+
 Create a virtual environment in your project directory:
+
 sh
 Copy code
 python3 -m venv venv
 Activate the virtual environment:
+
 sh
 Copy code
 source venv/bin/activate
 Install required Python packages:
+
 sh
 Copy code
 pip install pyserial
@@ -39,12 +43,15 @@ Adjust the SAFETY_DISTANCE and movement commands in the COMMANDS dictionary as n
 
 Running the Navigation System
 With your Raspberry Pi powered on and the virtual environment activated, navigate to the project directory.
+
 Run the navigation script:
+
 sh
 Copy code
 python Wrover-Basic(Good).py
 The rover will start processing LiDAR data and move accordingly to avoid obstacles.
+
 Safety and Testing
 Always test the rover in a safe, controlled environment to fine-tune the navigation parameters and ensure it operates as expected. Monitor the rover closely during operation to prevent accidents or damage.
 
-This README provides a basic overview and setup guide for your project. You can expand it with more detailed instructions, troubleshooting tips, or documentation links as needed.
+Make sure to use spaces (indentation) correctly in lists and code blocks for Markdown to render them properly. Additionally, check that you've used the correct headers (# for main headers, ## for subheaders, etc.) to ensure the document is structured as intended when viewed normally.
