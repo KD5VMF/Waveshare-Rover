@@ -68,7 +68,7 @@ SAFETY_DISTANCE = 950
 # These values should be adjusted based on testing to ensure effective maneuvering
 # Movement commands and safety distance definition
 COMMANDS = {
-    "FORWARD": {"T": 1, "L": 200, "R": 200,  # Normal forward, adjust speed as needed
+    "FORWARD": {"T": 1, "L": 200, "R": 200},  # Normal forward, adjust speed as needed
     "REVERSE": {"T": 1, "L": -225, "R": -225},  # Fast reverse, adjust speed as needed
     "TURN_LEFT": {"T": 1, "L": -255, "R": 255},  # Sharp left turn, negative value for left motor, positive for right
     "TURN_RIGHT": {"T": 1, "L": 255, "R": -255},  # Sharp right turn, positive value for left motor, negative for right
