@@ -23,5 +23,3 @@ This project is released under the MIT License. See the LICENSE file for more de
 
 Disclaimer
 This software is provided 'as-is', without any warranty. The developers are not liable for any damages arising from its use. This tool is intended for educational and developmental purposes only.
-
-Ensure you replace https://github.com/yourusername/yourrepository.git with your actual GitHub repository URL. If you have additional documentation, such as a detailed hardware setup guide, consider adding it to a docs directory in your repository and referencing it in the README. This template provides a comprehensive overview and guide for users and contributors to get started with your REV B system.
