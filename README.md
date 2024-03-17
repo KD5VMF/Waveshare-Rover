@@ -1,4 +1,4 @@
- # Waveshare Rover Navigation System
+ # Waveshare Rover - Lidar (FHL-LD19) - Navigation System
 
 The Waveshare Rover Navigation System is designed to autonomously navigate environments using LiDAR for obstacle detection and avoidance. Developed for the Raspberry Pi 4 with a Waveshare Rover Kit, this Python-based system processes incoming LiDAR data to dynamically adjust the rover's course, ensuring efficient navigation around obstacles.
 
