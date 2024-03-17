@@ -21,7 +21,7 @@ By using this software, you agree to the disclaimer and license terms.
 
 License: MIT License
 
-Copyright (c) <2024>
+Copyright (c) <2024> <FigTroniX>
 
 Permission is granted, free of charge, to any person obtaining a copy of this software
 and associated documentation, to deal in the Software without restriction, including
