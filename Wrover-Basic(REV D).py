@@ -60,7 +60,10 @@ LIDAR_SERIAL_PORT = '/dev/ttyUSB0'
 LIDAR_BAUD_RATE = 230400
 
 # Define a safety distance (in millimeters)
-SAFETY_DISTANCE = 1000
+SAFETY_DISTANCE = 100
+
+# Define the intensity value to use for lidar reflected intensity
+INTENSITY_VALUE = 20
 
 # Enhanced Movement and Speed Definitions
 # These values should be adjusted based on testing to ensure effective maneuvering
@@ -195,7 +198,7 @@ def make_dynamic_decision(intensity, angle, angular_resolution):
     Makes a dynamic navigation decision based on obstacle intensity, angle, and angular resolution.
     """
     # Example decision logic based on intensity and angle, factoring in angular resolution
-    if intensity > 20:
+    if intensity > INTENSITY_VALUE:
         if 90 <= angle <= 270:
             return "TURN_LEFT" if angular_resolution < 100 else "TURN_RIGHT"  # Example conditional decision
         else:
