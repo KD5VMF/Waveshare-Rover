@@ -3,7 +3,7 @@
 Welcome to the GitHub repository for the Dynamic Autonomous Navigation and Obstacle Avoidance System designed specifically for Waveshare Rovers. This advanced system leverages the FHL-LD19 LiDAR sensor, integrating real-time spatial mapping and obstacle detection with dynamic adjustments based on scanning speed and angular resolution. Aimed at enhancing educational, developmental, and research applications, this project embodies the cutting edge in hobbyist autonomous navigation technology.
 
 ## Features
-
+ 
 - **Dynamic Obstacle Detection**: Utilizes real-time LiDAR data for responsive and accurate obstacle recognition.
 - **Adaptive Navigation**: Dynamically adjusts safety margins based on LiDAR scanning speed and data point density, enabling flexible and intelligent maneuvering.
 - **Enhanced Environmental Perception**: Analyzes light intensity and point cloud data for comprehensive environmental understanding.
