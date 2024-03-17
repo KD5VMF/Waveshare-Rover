@@ -2,7 +2,9 @@
 Enhanced Dynamic Autonomous Navigation and Obstacle Avoidance System for Waveshare Rovers with Angular Resolution Optimization (REV D)
 
 About:
-This advanced script elevates autonomous navigation and obstacle avoidance for Waveshare Rovers, leveraging sophisticated LiDAR processing capabilities of the FHL-LD19 unit. Optimized for Raspberry Pi 4, the system introduces enhanced dynamic safety margins and refined object recognition. Utilizing scanning speed, angular resolution, and intensity data from LiDAR, it enables precise maneuvering across varied terrains. Key updates include real-time adjustments based on angular resolution, empowering the rover to navigate complex environments with unparalleled accuracy.
+This advanced script elevates autonomous navigation and obstacle avoidance for Waveshare Rovers, leveraging sophisticated LiDAR processing capabilities of the FHL-LD19 unit. 
+Optimized for Raspberry Pi 4, the system introduces enhanced dynamic safety margins and refined object recognition. Utilizing scanning speed, angular resolution, and intensity data from LiDAR, 
+it enables precise maneuvering across varied terrains. Key updates include real-time adjustments based on angular resolution, empowering the rover to navigate complex environments with unparalleled accuracy.
 
 Features:
 - Dynamic Obstacle Detection: Employs LiDAR for in-depth obstacle recognition by analyzing distance, intensity, and scanning dynamics.
@@ -17,7 +19,8 @@ Requirements:
 - pyserial package for serial communication
 
 Disclaimer:
-This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software. Permission is granted to anyone to use, modify, and distribute this software under the terms of the MIT License. Designed for educational and developmental purposes, it is not intended for operational use.
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software. 
+Permission is granted to anyone to use, modify, and distribute this software under the terms of the MIT License. Designed for educational and developmental purposes, it is not intended for operational use.
 
 License:
 Released under the MIT License.
