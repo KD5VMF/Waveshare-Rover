@@ -22,7 +22,7 @@ Welcome to the GitHub repository for the Dynamic Autonomous Navigation and Obsta
 
 ## License
 
-Distributed under the MIT License. See `[LICENSE](https://opensource.org/licenses/MIT)` for more information.
+Distributed under the MIT License. See [LICENSE](https://opensource.org/licenses/MIT/) for more information.
 
 ## Acknowledgements
 
