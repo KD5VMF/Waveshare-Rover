@@ -1,8 +1,8 @@
 """
 Title: Rover Navigation System
 
-About: This script is designed to control a rover equipped with LiDAR for obstacle detection and avoidance.
-       It establishes serial connections with the rover and the LiDAR sensor, processes incoming LiDAR data
+About: This script is designed to control a rover equipped with LiDAR (FHL-LD19) for obstacle detection and avoidance.
+       It establishes serial connections with the rover and the LiDAR (FHL-LD19) sensor, processes incoming LiDAR data
        to detect obstacles, and sends appropriate movement commands to the rover based on the detected obstacles.
        The script employs basic error handling and is organized into sections for clarity and maintenance.
 
