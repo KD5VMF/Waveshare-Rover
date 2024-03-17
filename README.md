@@ -47,10 +47,8 @@ System stands as a testament to the power of collaborative innovation, drawing o
 expertise and the latest in AI technology. We extend our deepest gratitude to those whose
 contributions have been instrumental in bringing this project to fruition:
 
-- **OpenAI's ChatGPT-4**: Provided invaluable insights and assistance in coding,
-  troubleshooting, and understanding complex principles of LiDAR technology and autonomous
-  navigation. Its advanced capabilities were central to overcoming the many technical
-  challenges we faced.
+- **ChatGPT-4 by OpenAI**: Our development leveraged the sophisticated capabilities of ChatGPT-4 extensively. From generating foundational code to troubleshooting and offering insights into LiDAR technology and autonomous navigation, ChatGPT-4's contributions were indispensable. The AI's ability to elucidate complex concepts and provide actionable code snippets was instrumental in surmounting the myriad technical challenges we faced.
+
 
 - **Adam Figueroa (KD5VMF) and FigTroniX**: At the helm of FigTroniX, Adam played a key role
   in the practical aspects of this project. His contributions, from hardware assembly to
