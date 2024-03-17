@@ -1,4 +1,5 @@
-Enhanced Autonomous Navigation and Obstacle Avoidance System REV B for Waveshare Rovers
+# Enhanced Autonomous Navigation and Obstacle Avoidance System REV B for Waveshare Rovers
+
 This project embodies the REV B version of an advanced navigation and obstacle avoidance system designed for Waveshare Rovers, leveraging the precision of LiDAR (FHL-LD19) technology. It significantly improves upon previous versions by incorporating advanced light intensity analysis for obstacle detection, providing a more nuanced approach to navigation in varied environments.
 
 Features
