@@ -60,16 +60,16 @@ LIDAR_SERIAL_PORT = '/dev/ttyUSB0'
 LIDAR_BAUD_RATE = 230400
 
 # Define a safety distance (in millimeters)
-SAFETY_DISTANCE = 100
+SAFETY_DISTANCE = 350
 
 # Define the intensity value to use for lidar reflected intensity
-INTENSITY_VALUE = 20
+INTENSITY_VALUE = 150
 
 # Define the time to wait before new object detection and decision making begins.
-WaitTime = 0.05
+WaitTime = 0.07
 
 # Define dynamic safety margin calculation values; adjust based on testing and requirements
-BaseSaftyDistance = 950 # Starting value = 950       ***Base safety distance in millimeters***
+BaseSaftyDistance = SAFETY_DISTANCE # Starting value = 950       ***Base safety distance in millimeters***
 SpeedFactor = 1000 # Starting value = 1000           ***Example speed factor calculation; adjust as needed***
 ResolutionFactor = 36000 # Starting value = 36000    ***Example resolution factor calculation***
 
@@ -311,3 +311,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
