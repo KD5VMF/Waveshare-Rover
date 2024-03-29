@@ -88,7 +88,7 @@ contributions have been instrumental in bringing this project to fruition:
 - **ChatGPT-4 by OpenAI**: Our development leveraged the sophisticated capabilities of ChatGPT-4 extensively. From generating foundational code to troubleshooting and offering insights into LiDAR technology and autonomous navigation, ChatGPT-4's contributions were indispensable. The AI's ability to elucidate complex concepts and provide actionable code snippets was instrumental in surmounting the myriad technical challenges we faced.
 
 
-- **Adam Figueroa (KD5VMF) and FigTroniX**: At the helm of FigTroniX, Adam played a key role
+- **(KD5VMF)**: At the helm of FigTroniX, Adam played a key role
   in the practical aspects of this project. His contributions, from hardware assembly to
   detailed technical feedback, were essential. Adam's ability to bridge the gap between
   theoretical concepts and real-world application, ensuring the system's goals were met with
